@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&subset=latin-ext');
+
+body {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+header {
+    height: 1000px;
+    background-image: url(../img/Photo.jpg);
+}
+
+.menu {
+    padding-top: 58px;
+    padding-left: 215px;
+}
+
+.menu li {
+    float: left;
+    font-weight: 700;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #26272d;
+}
+
+.menu li:first-of-type {
+    margin-right: 30px;
+    width: 20px;
+    height: 12px;
+}
+
+.menu li:nth-of-type(3) {
+    margin: 0 42px;
+}
+
+.menu li:nth-of-type(5) {
+    margin-left: 242px;
+    margin-right: 224px;
+    text-transform: uppercase;
+    color: #26272d;
+    width: 140px;
+    height: 13px;
+}
+
+.menu li:nth-of-type(6) {
+    font-family: Lato;
+    color: rgba(27, 28, 30, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.menu li:nth-of-type(7) {
+    margin: 0 31px;
+}
+
+.logo {
+    width: 140px;
+    height: 13px;
+}
+
+.menu button {
+    width: 132px;
+    height: 42px;
+    margin-top: -21px;
+    border-radius: 21px;
+    background-color: #217ef4;
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+}
+
+.apple_icon {
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-right: 12px;
+}
+
+header h1 {
+    width: 738px;
+    height: 61px;
+    margin-left: 432px;
+    margin-top: 128px;
+    font-family: VarelaRound;
+    color: #26272d;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    overflow: hidden;
+}
+
+.text1 {
+    width: 780px;
+    height: 75px;
+    margin-left: 410px;
+    margin-top: 40px;
+    font-family: Lato;
+    color: #8c8f94;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.watch_video {
+    margin-left: 698px;
+    margin-top: 62px;
+    border: 1px solid #26272d;
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: Lato;
+    background-color: #eef0f3;
+    box-shadow: none;
+    opacity: 0.1;
+    display: block;
+    clear: both;
+}
+
+.watch_video img {
+    font-family: Lato;
+    color: #26272d;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.iphone {
+    margin-left: 614px;
+    margin-top: 71px;
+    width: 369px;
+    height: 455px;
+}
+
+.benefits {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.benefits table {
+    margin-left: 252px;
+    margin-top: 127px;
+}
+
+.benefits td {
+    width: 493px;
+}
+
+.table_rightside {
+    padding-left: 111px;
+}
+
+.benefits_header {
+    font-family: Lato;
+    color: #26272d;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: left;
+}
+
+.benefits_description,
+.benefits_header,
+.phone_text_rightside p:nth-of-type(2),
+.map_text_leftside p:nth-of-type(2) {
+    margin-top: 45px;
+}
+
+.benefits_description {
+    font-family: Lato;
+    color: #8c8f94;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.phone {
+    height: 900px;
+}
+
+.phone img {
+    margin-top: 86px;
+    width: 811px;
+    height: 772px;
+}
+
+.phone h2 {
+    width: 230px;
+    height: 94px;
+}
+
+.header_black {
+    margin-bottom: 73px;
+    font-family: VarelaRound;
+    color: #26272d;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+}
+
+.phone_text_rightside {
+    float: right;
+    width: 469px;
+    margin-right: 218px;
+    padding-top: 224px;
+}
+
+.phone_text_rightside p {
+    font-family: Lato;
+    color: #8c8f94;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.phone_text_rightside button {
+    margin-top: 75px;
+    height: 42px;
+    border-radius: 21px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phone_text_rightside button:nth-of-type(1) {
+    margin-right: 20px;
+    background-color: #267df4;
+    width: 202px;
+    padding-left: 26px;
+    font-family: Lato;
+    color: #ffffff;
+    text-align: left;
+    background-image: url(../img/Arrow%20Icon.png) no-repeat;
+}
+
+.phone_text_rightside button:nth-of-type(2) {
+    width: 142px;
+    border-width: 1px solid #26272d;
+    opacity: 0.1;
+    text-align: center;
+}
+
+.map {
+    height: 900px;
+}
+
+.map h2 {
+    width: 279px;
+    height: 94px;
+}
+
+.map_text_leftside {
+    padding-top: 216px;
+    margin-left: 216px;
+    width: 459px;
+    font-family: Lato;
+    color: #8c8f94;
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.world_map {
+    float: right;
+    width: 842px;
+    height: 496px;
+    margin-top: 206px;
+}
+
+.partners {
+    margin-top: 68px;
+    width: 69px;
+    height: 10px;
+    font-family: Lato;
+    color: #26272d;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.map li {
+    float: left;
+    margin-top: 31px;
+}
+
+.map li:first-of-type {
+    margin-right: 31px;
+}
+
+.interface {
+    height: 1200px;
+    background-color: #f5f5f8;
+}
+
+.interface h2 {
+    padding-top: 143px;
+    margin-left: 623px;
+}
+
+.interface li {
+    float: left;
+    
+}
+
+
+.interface li:nth-of-type(2),
+.interface li:nth-of-type(4) {
+    margin-left: 30px;margin-right: 27px;
+}
+
+.line {
+    background-color: #267df4;
+    width: 50px;
+    height: 2px;
+    margin-top: 47px;
+    margin-left: 774px;
+}
+
+.LS {
+    margin-top: 43px;
+    margin-left: 742px;
+    font-family: Lato;
+    color: #8c8f94;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 116px;
+    height: 10px;
+}
+
+.small_screen {
+    margin-top: 134px;
+    box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15), 0px 44px 66px 0px rgba(92, 95, 101, 0.28);
+}
+
+.big_screen {
+    margin-top: 46px;
+}
